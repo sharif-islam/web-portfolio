@@ -1,6 +1,60 @@
 body {
   font-family: "Rubik", sans-serif;
+  margin: 0;
+  font-size: 20px;
 }
 .nameHighlight {
   color: orange;
+}
+h1 {
+  margin-bottom: 50px;
+}
+.half-part {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+.half-part img {
+  width: 100%;
+}
+.top-banner {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+section {
+  height: 600px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+}
+.dream-banner {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.single {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  height: 60%;
+}
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position-y: 40%;
+  box-sizing: border-box;
+}
+#full-stack {
+  border-left: 10px solid orange;
+  background-color: white;
+}
+#web-dev {
+  border-left: 10px solid blue;
+}
+footer {
+  text-align: center;
+  color: grey;
 }
